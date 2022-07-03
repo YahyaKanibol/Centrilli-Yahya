@@ -1,6 +1,6 @@
 Feature: Login Functionality
   As a registered I should be able to login to my account so that I can use the modules.
-
+@ac4tc1
   Scenario Outline: Verify that I got message if I leave empty any of credentials,"Please fill out this field" message appears when e-mail is missing
     When User goes to application page
     And  User enters valid password "<password>"
@@ -14,7 +14,7 @@ Feature: Login Functionality
       | expensemanager   |
       | manufuser        |
       | inventorymanager |
-
+@ac4tc2
   Scenario Outline: Verify that I got message if I leave empty any of credentials,"Please fill out this field" message appears when password is missing
     When User goes to application page
     And  User enters valid email "<email>"

@@ -1,7 +1,7 @@
 Feature: Login functionality
   As a registered I should be able to login to my account so that I can use the modules.
 
-  @ac2tc1
+  @ac3tc1
   Scenario Outline: Verify that user can not login with invalid credentials
     When User goes to application page
     And  User enters invalid  email "<email>" and valid password "<password>" and press enter key
@@ -15,7 +15,7 @@ Feature: Login functionality
       | manufuser@info.               | manufuser        |
       | inventory@info.com            | inventorymanager |
 
-  @ac2tc2
+  @ac3tc2
   Scenario Outline: Verify that I can not login with invalid credentials
     When User goes to application page
     And  User enters valid email "<email>" and invalid password "<password>"and press enter key
