@@ -45,4 +45,19 @@ public class LoginPageStepDef {
     public void user_Lands_On_Homepage_As_Salesmanager() {
         Assert.assertTrue(loginPage.usernameVerify.getText().toLowerCase().contains("salesmanager"));
     }
+
+    @Then("User lands on homepage as manufacturing user")
+    public void userLandsOnHomepageAsManufacturingUser() {
+        Assert.assertTrue(loginPage.usernameVerify.getText().toLowerCase().contains("manufacturinguser"));
+    }
+
+    @Then("User lands on homepage as inventory manager")
+    public void userLandsOnHomepageAsInventoryManager() {
+        Assert.assertTrue(loginPage.usernameVerify.getText().toLowerCase().contains("inventorymanager"));
+    }
+
+    @Then("User lands on homepage as expense manager")
+    public void userLandsOnHomepageAsExpenseManager() {
+        Assert.assertTrue(loginPage.usernameVerify.getText().toLowerCase().contains("expensemanager"));
+    }
 }
