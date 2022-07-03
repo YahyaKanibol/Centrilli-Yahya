@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c6b916-9f3d-4c1f-9f14-c2e60e81298b" name="Changes" comment="Firts Commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/centrilli/step_definitions/LoginPageStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/centrilli/step_definitions/LoginPageStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/centrilli/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/centrilli/runners/YukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="com.centrilli.utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager" selected="JUnit.YukesRunner">
     <configuration name="Scenario: Verify that user can login with valid credentials as &quot;posmanager&quot; by clicking on login button" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/posmanagerLogin.feature" />
@@ -100,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="YukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Centrilli" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.centrilli.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.centrilli.runners.CukesRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.centrilli.runners.YukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,7 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.YukesRunner" />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can login with valid credentials as &quot;posmanager&quot; by clicking on login button" />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can login with valid credentials as posmanager by clicking enter" />
       </list>
@@ -142,7 +143,7 @@
       <workItem from="1656751662639" duration="5000" />
       <workItem from="1656796753250" duration="9212000" />
       <workItem from="1656832467904" duration="621000" />
-      <workItem from="1656864436821" duration="12398000" />
+      <workItem from="1656864436821" duration="13174000" />
     </task>
     <task id="LOCAL-00001" summary="Firts Commit">
       <created>1656865413778</created>
@@ -172,7 +173,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656887337648</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Firts Commit">
+      <created>1656887580900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656887580900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Firts Commit">
+      <created>1656887628462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656887628462</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Firts Commit">
+      <created>1656887729775</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656887729775</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
