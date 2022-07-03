@@ -21,5 +21,13 @@ public class LoginPage {
 
     @FindBy(xpath = "//span[@class='oe_topbar_name']")
     public WebElement usernameVerify;
+
+    @FindBy(xpath = "//a[@class='btn btn-link pull-right']")
+    public WebElement resetPasswordButton;
+
+    @FindBy (xpath = "//p[@class='alert alert-danger']")
+    public WebElement wrongAlert;
+
+    
 }
 

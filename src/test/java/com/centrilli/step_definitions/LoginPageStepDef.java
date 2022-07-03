@@ -33,7 +33,6 @@ public class LoginPageStepDef {
     public void user_Enters_Valid_Email_And_Valid_Password(String email, String password) {
         loginPage.emailBox.sendKeys(email);
         loginPage.passwordBox.sendKeys(password);
-
     }
 
     @And("User click on login button")
@@ -59,5 +58,53 @@ public class LoginPageStepDef {
     @Then("User lands on homepage as expense manager")
     public void userLandsOnHomepageAsExpenseManager() {
         Assert.assertTrue(loginPage.usernameVerify.getText().toLowerCase().contains("expensemanager"));
+    }
+
+    @And("User enters invalid  email {string} and valid password {string} and press enter key")
+    public void user_Enters_Invalid_Email_And_Valid_Password_And_Press_Enter_Key(String email, String password) {
+        loginPage.emailBox.sendKeys(email);
+        loginPage.passwordBox.sendKeys(password+Keys.ENTER);
+    }
+
+    @And("User enters valid email {string} and invalid password {string}and press enter key")
+    public void user_Enters_Valid_Email_And_Invalid_Password_And_Press_Enter_Key(String email, String password) {
+        loginPage.emailBox.sendKeys(email);
+        loginPage.passwordBox.sendKeys(password+Keys.ENTER);
+    }
+
+    @And("User enters valid password {string}")
+    public void user_Enters_Valid_Password(String password) {
+        loginPage.passwordBox.sendKeys(password);
+        loginPage.loginButton.click();
+    }
+
+    @And("User enters valid email {string}")
+    public void user_Enters_Valid_Email(String email) {
+        loginPage.emailBox.sendKeys(email);
+        loginPage.loginButton.click();
+    }
+
+    @And("User clicks on reset button")
+    public void user_Clicks_On_Reset_Button() {
+        loginPage.resetPasswordButton.click();
+    }
+
+
+
+    @Then("Verify the please fill out this field message appears\\(email missing)")
+    public void verify_The_Please_Fill_Out_This_Field_Message_Appears_EmailMissing() {
+        String message=loginPage.emailBox.getAttribute("validationMessage");
+        Assert.assertEquals("Please fill out this field",message);
+    }
+
+    @Then("Verify the please fill out this field message appears\\(password missing)")
+    public void verify_The_Please_Fill_Out_This_Field_Message_Appears_PasswordMissing() {
+        String message=loginPage.passwordBox.getAttribute("validationMessage");
+        Assert.assertEquals("Please fill out this field",message);
+    }
+
+    @Then("Verify the error message appears")
+    public void verifyTheErrorMessageAppears() {
+        Assert.assertTrue(loginPage.wrongAlert.isDisplayed());
     }
 }
