@@ -92,13 +92,13 @@ public class LoginPageStepDef {
     @Then("Verify the please fill out this field message appears\\(email missing)")
     public void verify_The_Please_Fill_Out_This_Field_Message_Appears_EmailMissing() {
         String message=loginPage.emailBox.getAttribute("validationMessage");
-        Assert.assertEquals("Please fill out this field",message);
+        Assert.assertEquals("Please fill out this field.",message);
     }
 
     @Then("Verify the please fill out this field message appears\\(password missing)")
     public void verify_The_Please_Fill_Out_This_Field_Message_Appears_PasswordMissing() {
         String message=loginPage.passwordBox.getAttribute("validationMessage");
-        Assert.assertEquals("Please fill out this field",message);
+        Assert.assertEquals("Please fill out this field.",message);
     }
 
     @Then("Verify the error message appears")
