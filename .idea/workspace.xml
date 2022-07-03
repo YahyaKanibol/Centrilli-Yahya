@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85c6b916-9f3d-4c1f-9f14-c2e60e81298b" name="Changes" comment="Firts Commit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="85c6b916-9f3d-4c1f-9f14-c2e60e81298b" name="Changes" comment="Firts Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +161,7 @@
       <workItem from="1656751662639" duration="5000" />
       <workItem from="1656796753250" duration="9212000" />
       <workItem from="1656832467904" duration="621000" />
-      <workItem from="1656864436821" duration="15420000" />
+      <workItem from="1656864436821" duration="15755000" />
     </task>
     <task id="LOCAL-00001" summary="Firts Commit">
       <created>1656865413778</created>
@@ -242,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656890462168</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Firts Commit">
+      <created>1656890626049</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656890626049</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Firts Commit">
+      <created>1656890667010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656890667010</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
