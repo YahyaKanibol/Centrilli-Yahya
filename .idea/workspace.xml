@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85c6b916-9f3d-4c1f-9f14-c2e60e81298b" name="Changes" comment="Firts Commit">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/centrilli/runners/YukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/centrilli/runners/YukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/centrilli/pages/DashPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/centrilli/step_definitions/LogoutStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
+      <option name="GLUE" value="com.centrilli.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Centrilli" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Centrilli" />
       <extension name="coverage">
@@ -118,6 +142,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.YukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: " />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can login with valid credentials as &quot;posmanager&quot; by clicking on login button" />
         <item itemvalue="Cucumber Java.Scenario: Verify that user can login with valid credentials as posmanager by clicking enter" />
       </list>
@@ -142,7 +167,7 @@
       <workItem from="1656751662639" duration="5000" />
       <workItem from="1656796753250" duration="9212000" />
       <workItem from="1656832467904" duration="621000" />
-      <workItem from="1656864436821" duration="13495000" />
+      <workItem from="1656864436821" duration="15069000" />
     </task>
     <task id="LOCAL-00001" summary="Firts Commit">
       <created>1656865413778</created>
@@ -207,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656888548032</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Firts Commit">
+      <created>1656888895684</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656888895684</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
