@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/centrilli/step_definitions",
         dryRun = false,
-        tags = "@ac4tc1"
+        tags = "@ac3tc1"
 
 
 )
