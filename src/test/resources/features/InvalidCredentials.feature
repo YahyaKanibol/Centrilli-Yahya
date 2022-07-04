@@ -9,7 +9,7 @@ Feature: Login functionality
 
     Examples:
       | email                         | password         |
-      | posmanager15@mail.com         | posmanager       |
+      | posmanag15@mail.com           | posmanager       |
       | salesmanager@gmail.com        | salesmanager     |
       | expensesmanagr@info.com       | expensesmanager  |
       | manufuser@info.               | manufuser        |
@@ -23,8 +23,8 @@ Feature: Login functionality
 
     Examples:
       | email                      | password          |
-      | posmanager60@info.com      | invalidpassword   |
-      | salesmanager60@info.com    | invalidpassword   |
+      | posmanager10@info.com      | invalidpassword   |
+      | salesmanager10@info.com    | invalidpassword   |
       | expensesmanager10@info.com | invalidpassword   |
-      | manuf_user50@info.com      | invalidpassword   |
+      | manuf_user10@info.com      | invalidpassword   |
       | imm10@info.com             | invalidpassword   |

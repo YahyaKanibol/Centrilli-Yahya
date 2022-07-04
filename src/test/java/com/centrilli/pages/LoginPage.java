@@ -1,5 +1,6 @@
 package com.centrilli.pages;
 
+import com.centrilli.utilities.ConfigurationReader;
 import com.centrilli.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +11,14 @@ public class LoginPage {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
+    public void login(){
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));          // centrilli
+        this.emailBox.sendKeys(ConfigurationReader.getProperty("email"));        //posmanager10
+        this.passwordBox.sendKeys(ConfigurationReader.getProperty("password"));  //posmanager
+        this.loginButton.click();
+    }
+
+
     @FindBy(xpath = "//input[@id='login']")
     public WebElement emailBox;
 
