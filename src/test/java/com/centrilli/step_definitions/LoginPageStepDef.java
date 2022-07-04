@@ -84,11 +84,6 @@ public class LoginPageStepDef {
         loginPage.loginButton.click();
     }
 
-    @And("User clicks on reset button")
-    public void user_Clicks_On_Reset_Button() {
-        loginPage.resetPasswordButton.click();
-    }
-
     @Then("Verify the please fill out this field message appears\\(email missing)")
     public void verify_The_Please_Fill_Out_This_Field_Message_Appears_EmailMissing() {
         String message=loginPage.emailBox.getAttribute("validationMessage");
