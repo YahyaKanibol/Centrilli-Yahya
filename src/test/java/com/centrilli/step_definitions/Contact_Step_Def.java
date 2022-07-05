@@ -3,6 +3,7 @@ package com.centrilli.step_definitions;
 import com.centrilli.pages.ContactsPage;
 import com.centrilli.pages.DashPage;
 import com.centrilli.pages.LoginPage;
+import com.centrilli.utilities.BrowserUtils;
 import com.centrilli.utilities.ConfigurationReader;
 import com.centrilli.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -16,9 +17,11 @@ public class Contact_Step_Def {
     ContactsPage contactsPage = new ContactsPage();
 
     @Given("User on the homepage c")
-    public void user_on_the_homepage_c() {
+    public void user_on_the_homepage() {
         loginPage.login();
+        BrowserUtils.waitForVisibility(dashPage.congratulationsMessage,5);
     }
+
 
     @When("User click on contacts button")
     public void user_click_on_contacts_button() {

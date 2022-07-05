@@ -15,7 +15,10 @@ public class DashPage {
     @FindBy(xpath = "//a[@data-menu='logout']")
     public WebElement logoutButton;
 
-
     @FindBy(css = "a[data-menu='68'] span")
     public WebElement contactsButton;
+
+    @FindBy(xpath = "//div[@class='o_thread_title']")
+    public WebElement congratulationsMessage;
+
 }
