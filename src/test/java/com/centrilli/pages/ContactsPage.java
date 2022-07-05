@@ -6,10 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ContactsPage{
+
     public ContactsPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
     @FindBy (xpath = "//button[@accesskey='c']")
+
     public WebElement createButton;
 
     @FindBy(id = "o_field_input_334")
