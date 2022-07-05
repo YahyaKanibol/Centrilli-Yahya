@@ -2,6 +2,7 @@ package com.centrilli.step_definitions;
 
 import com.centrilli.pages.DashPage;
 import com.centrilli.pages.LoginPage;
+import com.centrilli.utilities.BrowserUtils;
 import com.centrilli.utilities.ConfigurationReader;
 import com.centrilli.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -16,6 +17,7 @@ public class LogoutStepDef  {
     @Given("User on the homepage")
     public void user_on_the_homepage() {
         loginPage.login();
+        BrowserUtils.waitForVisibility(dashPage.congratulationsMessage,5);
     }
     @When("User clicks on user dropdown menu")
     public void user_clicks_on_user_dropdown_menu() {
