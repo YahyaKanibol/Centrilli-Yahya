@@ -16,11 +16,7 @@ public class Contact_Step_Def {
     LoginPage loginPage = new LoginPage();
     ContactsPage contactsPage = new ContactsPage();
 
-    @Given("User on the homepage c")
-    public void user_on_the_homepage() {
-        loginPage.login();
-        BrowserUtils.waitForVisibility(dashPage.congratulationsMessage,5);
-    }
+
 
 
     @When("User click on contacts button")
